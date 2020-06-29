@@ -1,5 +1,5 @@
 # cbuilder
-Common build tools for C project.
+Common build tools for C projects.
 
 # License
-The Unlicense (for the Dockerfile itself).
+The [Unlicense](LICENSE) (for the Dockerfile itself).

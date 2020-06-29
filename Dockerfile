@@ -1,7 +1,7 @@
-FROM ubuntu:19.10
+FROM ubuntu:20.04
 
 LABEL name="cbuilder"
-LABEL version="19.10.1"
+LABEL version="20.04.1"
 LABEL description="Common build tools for projects"
 LABEL vendor="isotes"
 LABEL maintainer="isotes <isotes@gmail.com>"
@@ -25,7 +25,6 @@ RUN true && \
 		git \
 		rsync \
 		ruby \
-		python-pip \
 		zip \
 		unzip \
 		curl \
