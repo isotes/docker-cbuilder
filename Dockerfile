@@ -2,7 +2,7 @@ FROM ubuntu:20.04
 
 LABEL name="cbuilder"
 LABEL version="20.04.1"
-LABEL description="Common build tools for projects"
+LABEL description="Common build tools for C projects"
 LABEL vendor="isotes"
 LABEL maintainer="isotes <isotes@gmail.com>"
 
@@ -27,6 +27,8 @@ RUN true && \
 		ruby \
 		zip \
 		unzip \
+		p7zip-full \
+		atool \
 		curl \
 		wget \
 		nano \
